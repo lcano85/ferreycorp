@@ -1,0 +1,8 @@
+.recursos-humanos__body {
+  .recursos-humanos--content {
+    padding: 0 90px;
+    @media (max-width: 880px) {
+      padding: 0px;
+    }
+  }
+}

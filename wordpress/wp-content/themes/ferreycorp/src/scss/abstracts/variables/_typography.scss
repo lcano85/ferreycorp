@@ -1,0 +1,9 @@
+$font : 'Axiforma';
+
+// stylelint-disable value-keyword-case
+$font__main: $font;
+// stylelint-enable value-keyword-case
+$font__code: $font;
+$font__pre: $font;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;

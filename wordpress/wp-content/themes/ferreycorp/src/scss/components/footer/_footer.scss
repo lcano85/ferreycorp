@@ -1,0 +1,133 @@
+.ferreycorp__footer {
+  background: #323232;
+  color: #fff;
+  padding: 19px 0 0;
+  hr {
+    margin: 0;
+    height: 3px;
+    background: #662a82;
+    opacity: 1;
+  }
+  .container {
+    max-width: 1040px;
+    display: flex;
+    padding-top: 27px;
+    padding-bottom: 32px;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 880px) {
+      flex-direction: column-reverse;
+    }
+  }
+  .footer__information {
+    width: 100%;
+    max-width: 157px;
+
+    @media (max-width: 880px) {
+      max-width: 200px;
+      margin-top: 10px;
+    }
+  }
+  .information__brand {
+    margin-bottom: 15px;
+    .brand {
+      display: block;
+    }
+  }
+  .information__contact {
+    margin-bottom: 15px;
+    p {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 12px;
+      margin-bottom: 10px;
+      span {
+        display: block;
+      }
+    }
+  }
+  .information__social {
+    .social__list {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    .social__item {
+      list-style: none;
+      padding: 0 5px;
+      .permalink {
+        display: block;
+        color: #fff;
+      }
+      .icon {
+        font-size: 20px;
+      }
+    }
+  }
+  .footer__navigation {
+    width: 100%;
+    max-width: 840px;
+    .menu {
+      display: flex;
+      margin: 0 -12px;
+      padding: 0;
+      @media (max-width: 880px) {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+      }
+    }
+    .sub-menu {
+      margin: 0;
+      padding: 0;
+    }
+    .menu-item {
+      list-style: none;
+      text-align: center;
+      padding: 0 12px;
+      width: 100%;
+      max-width: 143px;
+      @media (max-width: 880px) {
+        max-width: 100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 880px) {
+          font-size: 16px;
+        }
+      }
+      .sub-menu {
+        margin-top: 8px;
+        .menu-item {
+          padding: 0;
+          margin-bottom: 10px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+        a {
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 15px;
+          height: auto;
+          @media (max-width: 880px) {
+            font-size: 13px;
+            line-height: 13px;
+          }
+        }
+      }
+    }
+  }
+}

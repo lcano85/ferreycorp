@@ -1,0 +1,1 @@
+{"version":3,"sources":["admin/users/_users.scss"],"names":[],"mappings":"AAAA,wCAGY,YAAA,OACA,SAAA","file":"admin.css","sourcesContent":[".wp-admin.users-php{\r\n    .users{\r\n        .column-role{\r\n            white-space: nowrap;\r\n            overflow: auto;\r\n        }\r\n    }\r\n}"]}

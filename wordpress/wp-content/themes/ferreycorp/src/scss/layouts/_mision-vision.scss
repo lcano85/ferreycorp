@@ -1,0 +1,40 @@
+.mision-vision__body {
+  .mision-vision--content {
+    max-width: 1040px;
+    margin: 0 auto;
+    @media (max-width: 880px) {
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+    .mision-vision--content_row {
+      @media (max-width: 880px) {
+        flex-direction: column-reverse;
+      }
+    }
+    .mision-vision__descripcion {
+      font-size: 18px;
+      line-height: 24px;
+      text-align: justify;
+      color: #737373;
+      @media (max-width: 880px) {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .mision-vision__img {
+      position: relative;
+      img {
+        border-radius: 20px;
+      }
+      .mision-vision__opacity {
+        background: #131313;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0.75;
+        top: 0px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
